@@ -4,6 +4,8 @@ Pre-Configures riak and riak-cs
 
 This cookbook aligns with riak and riak-cs cookbooks.
 
+And more, read blog article: http://tk0miya.hatenablog.com/entry/2013/03/23/003948
+
 Requirements
 ------------
 This cookbook depends riak and riak-cs cookbooks.
