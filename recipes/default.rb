@@ -7,10 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
-file_ulimit "riak" do
-  user "riak"
-  soft_limit 4096
-  hard_limit 4096
+user_ulimit "riak" do
+  filehandle_limit node['riak_cs']['limits']['nofile']
 end
 
 #
